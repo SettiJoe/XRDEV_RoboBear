@@ -305,7 +305,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &579770952
 Transform:
   m_ObjectHideFlags: 0
@@ -553,8 +553,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5346bcc03ca3c234389af2464a877432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: {fileID: 579770952}
-  position: {x: 535, y: 35, z: 292}
+  location: {fileID: 1507745368}
+  position: {x: 364.7, y: 17.2, z: 316.3}
   moveSpeed: 15
   turnSpeed: 20
 --- !u!4 &1507745368 stripped

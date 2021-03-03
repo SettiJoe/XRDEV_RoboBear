@@ -1,13 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MainIntro : MonoBehaviour
 {
-    public void LaunchScene(int sceneBuildIndex)
+    public void LaunchScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 
     public void QuitApp()

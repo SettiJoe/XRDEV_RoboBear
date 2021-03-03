@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SimHandMove : MonoBehaviour
 {
@@ -19,7 +17,7 @@ public class SimHandMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        #region Translate using Keyboard
         if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed);
@@ -36,6 +34,7 @@ public class SimHandMove : MonoBehaviour
         {
             transform.Translate(Vector3.right * Time.deltaTime * moveSpeed);
         }
+        #endregion
 
         #region Rotation using Keyboard
 
@@ -64,7 +63,7 @@ public class SimHandMove : MonoBehaviour
 
         #endregion
 
-        // sprint?
+        // Sprint
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             DoSprint(10);
