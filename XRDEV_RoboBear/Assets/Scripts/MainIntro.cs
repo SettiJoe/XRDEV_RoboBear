@@ -3,9 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class MainIntro : MonoBehaviour
 {
-    public void LaunchScene(string sceneName)
+    public void LaunchScene(int sceneBuildIndex)
     {
-        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+        SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
     }
 
     public void QuitApp()
