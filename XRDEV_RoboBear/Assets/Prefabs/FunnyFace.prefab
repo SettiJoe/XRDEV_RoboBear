@@ -57,7 +57,6 @@ GameObject:
   - component: {fileID: 942782930410525658}
   - component: {fileID: 942782930410525655}
   - component: {fileID: 942782930410525652}
-  - component: {fileID: 942782930410525653}
   m_Layer: 0
   m_Name: Teeth (8)
   m_TagString: Untagged
@@ -126,19 +125,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782930410525653
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782930410525659}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782930416632078
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,7 +136,6 @@ GameObject:
   - component: {fileID: 942782930416632073}
   - component: {fileID: 942782930416632074}
   - component: {fileID: 942782930416632075}
-  - component: {fileID: 942782930416632072}
   m_Layer: 0
   m_Name: Tongue
   m_TagString: Untagged
@@ -219,19 +204,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782930416632072
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782930416632078}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782930455180254
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,7 +215,6 @@ GameObject:
   - component: {fileID: 942782930455180249}
   - component: {fileID: 942782930455180250}
   - component: {fileID: 942782930455180251}
-  - component: {fileID: 942782930455180248}
   m_Layer: 0
   m_Name: Teeth (1)
   m_TagString: Untagged
@@ -312,19 +283,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782930455180248
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782930455180254}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782930482490479
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,7 +294,6 @@ GameObject:
   - component: {fileID: 942782930482490478}
   - component: {fileID: 942782930482490475}
   - component: {fileID: 942782930482490472}
-  - component: {fileID: 942782930482490473}
   m_Layer: 0
   m_Name: Teeth (9)
   m_TagString: Untagged
@@ -405,19 +362,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782930482490473
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782930482490479}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782930487454759
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,7 +373,6 @@ GameObject:
   - component: {fileID: 942782930487454758}
   - component: {fileID: 942782930487454755}
   - component: {fileID: 942782930487454752}
-  - component: {fileID: 942782930487454753}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Untagged
@@ -498,19 +441,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &942782930487454753
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782930487454759}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782930605310015
 GameObject:
   m_ObjectHideFlags: 0
@@ -522,7 +452,6 @@ GameObject:
   - component: {fileID: 942782930605310014}
   - component: {fileID: 942782930605310011}
   - component: {fileID: 942782930605310008}
-  - component: {fileID: 942782930605310009}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Untagged
@@ -591,19 +520,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &942782930605310009
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782930605310015}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782930605497558
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,7 +531,6 @@ GameObject:
   - component: {fileID: 942782930605497553}
   - component: {fileID: 942782930605497554}
   - component: {fileID: 942782930605497555}
-  - component: {fileID: 942782930605497552}
   m_Layer: 0
   m_Name: Eye R
   m_TagString: Untagged
@@ -684,19 +599,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &942782930605497552
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782930605497558}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782930641404500
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,7 +610,6 @@ GameObject:
   - component: {fileID: 942782930641404503}
   - component: {fileID: 942782930641404496}
   - component: {fileID: 942782930641404497}
-  - component: {fileID: 942782930641404502}
   m_Layer: 0
   m_Name: Teeth (7)
   m_TagString: Untagged
@@ -777,19 +678,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782930641404502
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782930641404500}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782930660658080
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,7 +689,6 @@ GameObject:
   - component: {fileID: 942782930660658083}
   - component: {fileID: 942782930660658076}
   - component: {fileID: 942782930660658077}
-  - component: {fileID: 942782930660658082}
   m_Layer: 0
   m_Name: Eye R
   m_TagString: Untagged
@@ -870,19 +757,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &942782930660658082
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782930660658080}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782931070146951
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,7 +768,6 @@ GameObject:
   - component: {fileID: 942782931070146950}
   - component: {fileID: 942782931070146947}
   - component: {fileID: 942782931070146944}
-  - component: {fileID: 942782931070146945}
   m_Layer: 0
   m_Name: Teeth
   m_TagString: Untagged
@@ -963,19 +836,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782931070146945
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782931070146951}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782931226110443
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,7 +847,6 @@ GameObject:
   - component: {fileID: 942782931226110442}
   - component: {fileID: 942782931226110439}
   - component: {fileID: 942782931226110436}
-  - component: {fileID: 942782931226110437}
   m_Layer: 0
   m_Name: Mouth (1)
   m_TagString: Untagged
@@ -1056,19 +915,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782931226110437
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782931226110443}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782931245319919
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,7 +926,6 @@ GameObject:
   - component: {fileID: 942782931245319918}
   - component: {fileID: 942782931245319915}
   - component: {fileID: 942782931245319912}
-  - component: {fileID: 942782931245319913}
   m_Layer: 0
   m_Name: Teeth (4)
   m_TagString: Untagged
@@ -1149,19 +994,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782931245319913
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782931245319919}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782931521457224
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,7 +1005,6 @@ GameObject:
   - component: {fileID: 942782931521457227}
   - component: {fileID: 942782931521457220}
   - component: {fileID: 942782931521457221}
-  - component: {fileID: 942782931521457226}
   m_Layer: 0
   m_Name: Nose
   m_TagString: Untagged
@@ -1242,19 +1073,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782931521457226
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782931521457224}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782931689446398
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,7 +1084,6 @@ GameObject:
   - component: {fileID: 942782931689446393}
   - component: {fileID: 942782931689446394}
   - component: {fileID: 942782931689446395}
-  - component: {fileID: 942782931689446392}
   m_Layer: 0
   m_Name: Teeth (6)
   m_TagString: Untagged
@@ -1335,19 +1152,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782931689446392
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782931689446398}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782931742789954
 GameObject:
   m_ObjectHideFlags: 0
@@ -1359,7 +1163,6 @@ GameObject:
   - component: {fileID: 942782931742789949}
   - component: {fileID: 942782931742789950}
   - component: {fileID: 942782931742789951}
-  - component: {fileID: 942782931742789948}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Untagged
@@ -1428,19 +1231,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &942782931742789948
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782931742789954}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782931793910113
 GameObject:
   m_ObjectHideFlags: 0
@@ -1452,7 +1242,6 @@ GameObject:
   - component: {fileID: 942782931793910112}
   - component: {fileID: 942782931793910109}
   - component: {fileID: 942782931793910114}
-  - component: {fileID: 942782931793910115}
   m_Layer: 0
   m_Name: Teeth (2)
   m_TagString: Untagged
@@ -1521,19 +1310,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782931793910115
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782931793910113}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782931795021626
 GameObject:
   m_ObjectHideFlags: 0
@@ -1545,7 +1321,6 @@ GameObject:
   - component: {fileID: 942782931795021622}
   - component: {fileID: 942782931795021623}
   - component: {fileID: 942782931795021620}
-  - component: {fileID: 942782931795021621}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -1614,19 +1389,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782931795021621
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782931795021626}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782931894944008
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,7 +1400,6 @@ GameObject:
   - component: {fileID: 942782931894944011}
   - component: {fileID: 942782931894944004}
   - component: {fileID: 942782931894944005}
-  - component: {fileID: 942782931894944010}
   m_Layer: 0
   m_Name: Mouth
   m_TagString: Untagged
@@ -1707,19 +1468,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782931894944010
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782931894944008}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782931991732704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1731,7 +1479,6 @@ GameObject:
   - component: {fileID: 942782931991732707}
   - component: {fileID: 942782931991732700}
   - component: {fileID: 942782931991732701}
-  - component: {fileID: 942782931991732706}
   m_Layer: 0
   m_Name: Teeth (5)
   m_TagString: Untagged
@@ -1800,19 +1547,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782931991732706
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782931991732704}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782932023902276
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,7 +1558,6 @@ GameObject:
   - component: {fileID: 942782932023902279}
   - component: {fileID: 942782932023902272}
   - component: {fileID: 942782932023902273}
-  - component: {fileID: 942782932023902278}
   m_Layer: 0
   m_Name: Teeth (10)
   m_TagString: Untagged
@@ -1893,19 +1626,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782932023902278
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782932023902276}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782932049061631
 GameObject:
   m_ObjectHideFlags: 0
@@ -1917,7 +1637,6 @@ GameObject:
   - component: {fileID: 942782932049061630}
   - component: {fileID: 942782932049061627}
   - component: {fileID: 942782932049061624}
-  - component: {fileID: 942782932049061625}
   m_Layer: 0
   m_Name: Teeth (3)
   m_TagString: Untagged
@@ -1986,19 +1705,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782932049061625
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782932049061631}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782932190986417
 GameObject:
   m_ObjectHideFlags: 0
@@ -2010,7 +1716,6 @@ GameObject:
   - component: {fileID: 942782932190986416}
   - component: {fileID: 942782932190986413}
   - component: {fileID: 942782932190986418}
-  - component: {fileID: 942782932190986419}
   m_Layer: 0
   m_Name: Teeth (11)
   m_TagString: Untagged
@@ -2079,19 +1784,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782932190986419
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782932190986417}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782932211276444
 GameObject:
   m_ObjectHideFlags: 0
@@ -2103,7 +1795,6 @@ GameObject:
   - component: {fileID: 942782932211276447}
   - component: {fileID: 942782932211276440}
   - component: {fileID: 942782932211276441}
-  - component: {fileID: 942782932211276446}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Untagged
@@ -2172,19 +1863,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &942782932211276446
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782932211276444}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782932222066792
 GameObject:
   m_ObjectHideFlags: 0
@@ -2196,7 +1874,6 @@ GameObject:
   - component: {fileID: 942782932222066795}
   - component: {fileID: 942782932222066788}
   - component: {fileID: 942782932222066789}
-  - component: {fileID: 942782932222066794}
   m_Layer: 0
   m_Name: Teeth (12)
   m_TagString: Untagged
@@ -2265,19 +1942,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &942782932222066794
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942782932222066792}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942782932414493895
 GameObject:
   m_ObjectHideFlags: 0
