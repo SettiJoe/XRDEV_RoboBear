@@ -1,13 +1,28 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 public class SimHandGrab : MonoBehaviour
 {
-    // what we're touching
+    /// <summary>
+    /// What we're colliding with
+    /// </summary>
     public GameObject collidingObject;
-    // what we're holding
+    /// <summary>
+    /// What we're holding
+    /// </summary>
     public GameObject heldObject;
+    /// <summary>
+    /// How strong our throw is
+    /// </summary>
+    public float throwForce = 1f;
+    private SimHandMove controller;
+    private void Start()
+    {
+        controller = GetComponent<SimHandMove>();
+    }
     private void OnTriggerEnter(Collider other)
     {
-        // save/caching touches
+        // save/caching what we're touching
         collidingObject = other.gameObject;
     }
     private void OnTriggerExit(Collider other)
@@ -41,9 +56,25 @@ public class SimHandGrab : MonoBehaviour
         Debug.Log("Grabbing!");
         heldObject.transform.SetParent(this.transform);
         heldObject.GetComponent<Rigidbody>().isKinematic = true;
+        var grabbable = heldObject.GetComponent<GrabbableObjectSimHand>();
+        if (grabbable)
+        {
+            grabbable.simHandController = this;
+            grabbable.isBeingHeld = true;
+        }
     }
     public void Release()
     {
+        var grabbable = heldObject.GetComponent<GrabbableObjectSimHand>();
+        if (grabbable)
+        {
+            grabbable.isBeingHeld = false;
+            grabbable.simHandController = null;
+        }
+        // throw
+        Rigidbody rb = heldObject.GetComponent<Rigidbody>();
+        rb.velocity = controller.velocity * throwForce;
+        rb.angularVelocity = controller.angularVelocity * throwForce;
         heldObject.transform.SetParent(null);
         heldObject.GetComponent<Rigidbody>().isKinematic = false;
         heldObject = null;

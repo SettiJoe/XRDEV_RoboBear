@@ -1,23 +1,31 @@
-﻿using UnityEngine;
-
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 public class SimHandMove : MonoBehaviour
 {
     public Transform location;
     public Vector3 position;
     public float moveSpeed;
     public float turnSpeed;
-
+    /// <summary>
+    /// The velocity of the controller
+    /// </summary>
+    public Vector3 velocity;
+    /// <summary>
+    /// The angular velocity of the controller
+    /// </summary>
+    public Vector3 angularVelocity;
+    private Vector3 previousPosition;
+    private Vector3 previousAngularRotation;
     // Start is called before the first frame update
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         //location.position = position;
     }
-
     // Update is called once per frame
     void Update()
     {
-        #region Translate using Keyboard
         if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed);
@@ -34,10 +42,7 @@ public class SimHandMove : MonoBehaviour
         {
             transform.Translate(Vector3.right * Time.deltaTime * moveSpeed);
         }
-        #endregion
-
         #region Rotation using Keyboard
-
         if (Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.Q))
         {
             transform.Rotate(Vector3.down * Time.deltaTime * turnSpeed, Space.World);
@@ -54,16 +59,11 @@ public class SimHandMove : MonoBehaviour
         {
             transform.Rotate(Vector3.right * Time.deltaTime * turnSpeed, Space.Self);
         }
-
         #endregion
-
         #region Rotation using Mouse
-
         transform.Rotate(Vector3.up * Input.GetAxis("Mouse X") * turnSpeed, Space.Self);
-
         #endregion
-
-        // Sprint
+        // sprint?
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             DoSprint(10);
@@ -72,12 +72,14 @@ public class SimHandMove : MonoBehaviour
         {
             DoSprint(0.1f);
         }
-
-
+        // controller velocity
+        velocity = (transform.position - previousPosition) / Time.deltaTime;
+        previousPosition = transform.position;
+        angularVelocity = (transform.eulerAngles - previousAngularRotation) / Time.deltaTime;
+        previousAngularRotation = transform.eulerAngles;
         // Lerp Example
         //transform.position = Vector3.Lerp(transform.position, position, Time.deltaTime);
     }
-
     public void DoSprint(float sprintFactor)
     {
         moveSpeed *= sprintFactor;      // 
