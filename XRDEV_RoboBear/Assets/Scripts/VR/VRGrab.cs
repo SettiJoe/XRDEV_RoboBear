@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 public class VRGrab : MonoBehaviour
 {
     /// <summary>
@@ -57,9 +59,26 @@ public class VRGrab : MonoBehaviour
         Debug.Log("Grabbing!");
         heldObject.transform.SetParent(this.transform);
         heldObject.GetComponent<Rigidbody>().isKinematic = true;
+        var grabbable = heldObject.GetComponent<GrabbableObjectVR>();
+        if (grabbable)
+        {
+            grabbable.controller = controller;
+            grabbable.isBeingHeld = true;
+            heldObject.transform.localPosition += grabbable.grabOffset;
+            // start listening for the trigger
+            controller.OnTriggerDown.AddListener(grabbable.OnInteraction);
+        }
     }
     public void Release()
     {
+        var grabbable = heldObject.GetComponent<GrabbableObjectVR>();
+        if (grabbable)
+        {
+            grabbable.isBeingHeld = false;
+            grabbable.controller = null;
+            // stop listening for trigger
+            controller.OnTriggerDown.RemoveListener(grabbable.OnInteraction);
+        }
         // throw
         Rigidbody rb = heldObject.GetComponent<Rigidbody>();
         rb.velocity = controller.velocity * throwForce;

@@ -15,6 +15,9 @@ public class SimHandGrab : MonoBehaviour
     /// How strong our throw is
     /// </summary>
     public float throwForce = 1f;
+
+    public Transform snapPosition;
+
     private SimHandMove controller;
     private void Start()
     {
@@ -54,7 +57,8 @@ public class SimHandGrab : MonoBehaviour
     public void Grab()
     {
         Debug.Log("Grabbing!");
-        heldObject.transform.SetParent(this.transform);
+        heldObject.transform.SetParent(snapPosition);
+        heldObject.transform.localPosition = Vector3.zero;
         heldObject.GetComponent<Rigidbody>().isKinematic = true;
         var grabbable = heldObject.GetComponent<GrabbableObjectSimHand>();
         if (grabbable)

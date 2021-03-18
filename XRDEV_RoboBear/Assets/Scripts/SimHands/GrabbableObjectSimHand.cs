@@ -8,4 +8,5 @@ public class GrabbableObjectSimHand : MonoBehaviour
 {
     public SimHandGrab simHandController;
     public bool isBeingHeld;
+    
 }
