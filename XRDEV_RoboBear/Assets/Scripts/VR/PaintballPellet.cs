@@ -4,12 +4,9 @@ using UnityEngine;
 public class PaintballPellet : MonoBehaviour
 {
     public List<Material> paints = new List<Material>();
-    private int paintIndex = 0;
+    private static int paintIndex = 0;
     
 
-    void Start()
-    {
-    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.tag == "Paintable")
@@ -18,9 +15,10 @@ public class PaintballPellet : MonoBehaviour
 
             // Randomize paintIndex
             paintIndex++;
-
-            // condition to taper index within set Index
-
+            if (paintIndex == paints.Count)
+            { 
+                paintIndex = 0;
+            }
             Destroy(this.gameObject);
         }
     }
